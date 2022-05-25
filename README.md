@@ -2,11 +2,13 @@
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
 
+## Design Preview
+![Design preview for the coding challenge](./screenshots/nft_desktop.png)
+
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
@@ -21,14 +23,10 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
-
-![Design preview for the coding challenge](./screenshots/nft_desktop.png)
-
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site URL](https://sbefaro.github.io/FrontentMentor-NFT-Card/)
 
 ## My process
 
@@ -42,7 +40,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Frontend Mentor - [@SBefaro](https://www.frontendmentor.io/profile/SBefaro)
