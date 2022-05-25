@@ -6,43 +6,47 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./assets/style.css">
   
   <title>Frontend Mentor | NFT preview card component</title>
 
 </head>
 <body>
-  <div class="card">
-    <img src="./images/image-equilibrium.jpg" alt="Equilibrium">
-    <div class="view">
-      <img class="eye" src="./images/icon-view.svg" alt="icon view">
-    </div>
-    <h1>
-      Equilibrium #3429
-    </h1>
-    <p class="hola">
-      Our Equilibrium collection promotes balance and calm.
-    </p>
-    <div class="container-details">
-      <div class="container-eth">
-        <img src="./images/icon-ethereum.svg" alt="image icon ethereum">
-        <span>0.041 ETH</span>
+  <main>
+    <section class="card">
+      <div class="card__view">
+        <img class="card__nft-img" src="./images/image-equilibrium.jpg" alt="Equilibrium">
+        <div class="view__overlay">
+          <img class="card__eye-icon" src="./images/icon-view.svg" alt="icon view">
+        </div>
       </div>
-      <div class="container-time">
-        <img src="images/icon-clock.svg" alt="clock">
-        <span>3 days left</span>
+      <h1 id="prueba">
+        Equilibrium #3429
+      </h1>
+      <p class="card__description">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="card__details">
+        <div class="details__eth">
+          <img src="./images/icon-ethereum.svg" alt="image icon ethereum">
+          <span>0.041 ETH</span>
+        </div>
+        <div class="details__time">
+          <img src="images/icon-clock.svg" alt="clock">
+          <span>3 days left</span>
+        </div>
       </div>
-    </div>
-
-    <div class="creator">
-      <img src="./images/image-avatar.png" alt="Avatar">
-      <p>
-        Creation of <span class="name">Jules Wyvern</span>
-      </p> 
-    </div>
-
-
-  </div>
+  
+      <div class="card__creator">
+        <img src="./images/avatar.png" alt="Avatar">
+        <p>
+          Creation of  <span class="creator__name">Stefano Befaro</span>
+        </p> 
+      </div>
+  
+  
+    </section>
+  </main>
   
 
 </body>
